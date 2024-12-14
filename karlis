@@ -1,0 +1,13 @@
+your-repo-name/
+├── contracts/
+│   └── ETHFundManager.sol        # Your Solidity smart contract
+├── scripts/
+│   ├── deploy.js                 # Script for deploying the contract
+│   └── activateTransfer.js       # Script to activate the ETH transfer
+├── test/
+│   └── ETHFundManager.test.js    # Test cases for the contract
+├── .env                          # Environment variables (for private keys, etc.)
+├── .gitignore                    # Git ignore file to exclude sensitive files
+├── README.md                     # Documentation for the project
+├── package.json                  # Node.js dependencies and metadata
+└── hardhat.config.js             # Configuration file for Hardhat (or Truffle)
